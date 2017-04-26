@@ -8,25 +8,34 @@
  */
 abstract class GlobalClass
 {
-    public static function createObject() {
-        return new self();
+    public $object;
+    public function getObject(){
+        return $this->object;
     }
 
 }
 class ConcreteClass1 extends GlobalClass
 {
-    public static function createObject() {
-        return new self();
+    public $prop = 'prop';
+    public function __construct()
+    {
+        $this->object = $this;
     }
 }
 
 class ConcreteClass2 extends GlobalClass
 {
-    public static function createObject() {
-        return new self();
+    private $prop = 'prop2';
+    public function __construct()
+    {
+        $this->object = $this;
+
     }
 }
 
-
-var_dump(ConcreteClass1::createObject());
-var_dump(ConcreteClass2::createObject());
+//new GlobIterator();
+$class = new ConcreteClass1();
+$class2 = new ConcreteClass2();
+var_dump($class->getObject());
+var_dump($class2->getObject());
+//var_dump(ConcreteClass2::createObject());
