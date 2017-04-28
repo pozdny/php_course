@@ -5,11 +5,11 @@
  * Date: 26.04.2017
  * Time: 20:08
  */
-use basicpr;
+use basicpr\Basic;
 require_once 'vendor/project/Basic.php';
 
 try{
-   if($obj = new basicpr\Basic()){
+   if($obj = new Basic()){
        var_dump($obj);
    }else{
        throw new \Exception('Class Basic error');
