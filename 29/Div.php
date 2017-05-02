@@ -50,7 +50,7 @@ class DivBuilder {
 }
 
 $div = new DivBuilder();
-$div->setHeight(100);
-$div = $div->BuildDiv();
-var_dump($div);
+$divElement = $div->setHeight(100)->setHeight(80);
+//$div = $div->BuildDiv();
+var_dump($divElement);
 
