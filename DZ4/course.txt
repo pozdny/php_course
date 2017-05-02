@@ -1,0 +1,7 @@
+id: 1
+name: PHP
+length: 50
+date_start: 20.04.2017
+date_stop: 10.06.2017
+------------------
+
