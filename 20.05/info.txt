@@ -18,3 +18,9 @@ http://php.net/manual/ru/mysqli.prepare.php
 
 
 http://www.ozon.ru/context/detail/id/6290126/
+
+IP адрес: 95.191.131.12
+Пользователь: root
+Пароль: fez8-4#HZa9T
+
+pma: gfhjkmjn,fps
