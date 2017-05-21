@@ -1,0 +1,20 @@
+силинукс
+//установка memcached
+
+yum -y install memcached
+https://ru.wikipedia.org/wiki/Slab
+https://blog.elijaa.org/phpmemcachedadmin-download-version-1-3-0/
+
+http://design-pattern.ru/patterns/front-controller.html
+https://ru.wikibooks.org/wiki/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B_.htaccess
+
+
+http://php.net/manual/ru/book.reflection.php
+
+https://novosibirsk.hh.ru/vacancy/20334670?query=php
+https://novosibirsk.hh.ru/vacancy/20591827?query=php
+
+http://php.net/manual/ru/mysqli.prepare.php
+
+
+http://www.ozon.ru/context/detail/id/6290126/

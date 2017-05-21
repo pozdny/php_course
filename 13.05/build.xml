@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!-- файл построение -->
+<project name="Deploy" default="sshOperation">
+<target name="copyFile" >
+    <scp username="root" password="fez8-4#HZa9T" host="95.191.131.14" todir="/var/www/html/">
+        <fileset dir = "/var/www/html/" >
+            <include name= "composer.json" />
+        </fileset>
+    </scp>
+</target>
+<target name="sshOperation" depends="copyFile">
+    <ssh username="root" password="fez8-4#HZa9T"
+         host="95.191.131.14" command="cd /var/www/html;ls" />
+</target>
+</project>
+
+

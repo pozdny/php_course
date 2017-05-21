@@ -1,0 +1,15 @@
+Stack
+ [x] Empty
+ [x] Push
+ [x] Pop
+
+User
+ [x] Get user
+ [ ] Create user
+
+UserValid
+ [x] Get user
+
+Validator
+ [ ] Validate
+

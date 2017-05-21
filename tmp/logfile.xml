@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="test/" tests="7" assertions="9" failures="2" errors="0" time="0.323111">
+    <testsuite name="StackTest" file="E:\Projects\www\php-course\test\DependencyTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.160640">
+      <testcase name="testEmpty" class="StackTest" file="E:\Projects\www\php-course\test\DependencyTest.php" line="7" assertions="1" time="0.132253"/>
+      <testcase name="testPush" class="StackTest" file="E:\Projects\www\php-course\test\DependencyTest.php" line="18" assertions="2" time="0.025161"/>
+      <testcase name="testPop" class="StackTest" file="E:\Projects\www\php-course\test\DependencyTest.php" line="30" assertions="2" time="0.003226"/>
+    </testsuite>
+    <testsuite name="UserTest" file="E:\Projects\www\php-course\test\UserTest.php" tests="2" assertions="2" failures="1" errors="0" time="0.034883">
+      <testcase name="testGetUser" class="UserTest" file="E:\Projects\www\php-course\test\UserTest.php" line="19" assertions="1" time="0.007140"/>
+      <testcase name="testCreateUser" class="UserTest" file="E:\Projects\www\php-course\test\UserTest.php" line="25" assertions="1" time="0.027743">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">UserTest::testCreateUser&#13;
+Failed asserting that false is true.
+&#13;
+E:\Projects\www\php-course\test\UserTest.php:27
+</failure>
+      </testcase>
+    </testsuite>
+    <testsuite name="UserValidTest" file="E:\Projects\www\php-course\test\UserValidTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.123557">
+      <testcase name="testGetUser" class="UserValidTest" file="E:\Projects\www\php-course\test\UserValidTest.php" line="15" assertions="1" time="0.123557"/>
+    </testsuite>
+    <testsuite name="ValidatorTest" file="E:\Projects\www\php-course\test\ValidatorTest.php" tests="1" assertions="1" failures="1" errors="0" time="0.004031">
+      <testcase name="testValidate" class="ValidatorTest" file="E:\Projects\www\php-course\test\ValidatorTest.php" line="21" assertions="1" time="0.004031">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">ValidatorTest::testValidate&#13;
+Failed asserting that null is true.
+&#13;
+E:\Projects\www\php-course\test\ValidatorTest.php:22
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

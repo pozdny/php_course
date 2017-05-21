@@ -1,0 +1,35 @@
+gearman.org //очереди
+rabbitmq
+http://sphinxsearch.com/
+
+
+команды работы с gearman
+получить справку по командам
+gearadmin
+
+получить статус
+gearadmin --status
+
+удалить обработчик с именем arg
+gearadmin --drop-function arg
+
+
+gearadmin --workers
+
+service geadmand status
+service geadmand stop
+service geadmand start
+
+
+посмотреть процессы
+ps -aux
+
+логи
+/var/log
+/var/log/httpd
+/var/log/httpd/access_log //кто пытался долбится
+
+место на диске
+df -h
+
+

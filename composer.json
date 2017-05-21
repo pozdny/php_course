@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "phpunit/phpunit": "5.7.17"
+    },
+    "require": {
+        "robmorgan/phinx": "^0.8.0"
+    }
+}

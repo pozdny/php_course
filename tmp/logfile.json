@@ -1,0 +1,128 @@
+{
+    "event": "suiteStart",
+    "suite": "test\/",
+    "tests": 7
+}{
+    "event": "suiteStart",
+    "suite": "StackTest",
+    "tests": 3
+}{
+    "event": "testStart",
+    "suite": "StackTest",
+    "test": "StackTest::testEmpty"
+}{
+    "event": "test",
+    "suite": "StackTest",
+    "test": "StackTest::testEmpty",
+    "status": "pass",
+    "time": 0.13225317001343,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "StackTest",
+    "test": "StackTest::testPush"
+}{
+    "event": "test",
+    "suite": "StackTest",
+    "test": "StackTest::testPush",
+    "status": "pass",
+    "time": 0.025161027908325,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "StackTest",
+    "test": "StackTest::testPop"
+}{
+    "event": "test",
+    "suite": "StackTest",
+    "test": "StackTest::testPop",
+    "status": "pass",
+    "time": 0.0032258033752441,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "UserTest",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "UserTest",
+    "test": "UserTest::testGetUser"
+}{
+    "event": "test",
+    "suite": "UserTest",
+    "test": "UserTest::testGetUser",
+    "status": "pass",
+    "time": 0.0071399211883545,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "UserTest",
+    "test": "UserTest::testCreateUser"
+}{
+    "event": "test",
+    "suite": "UserTest",
+    "test": "UserTest::testCreateUser",
+    "status": "fail",
+    "time": 0.027743101119995,
+    "trace": [
+        {
+            "file": "E:\\Projects\\www\\php-course\\test\\UserTest.php",
+            "line": 27,
+            "function": "assertTrue",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that false is true.\n",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "UserValidTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "UserValidTest",
+    "test": "UserValidTest::testGetUser"
+}{
+    "event": "test",
+    "suite": "UserValidTest",
+    "test": "UserValidTest::testGetUser",
+    "status": "pass",
+    "time": 0.12355709075928,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "ValidatorTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "ValidatorTest",
+    "test": "ValidatorTest::testValidate"
+}{
+    "event": "test",
+    "suite": "ValidatorTest",
+    "test": "ValidatorTest::testValidate",
+    "status": "fail",
+    "time": 0.0040309429168701,
+    "trace": [
+        {
+            "file": "E:\\Projects\\www\\php-course\\test\\ValidatorTest.php",
+            "line": 22,
+            "function": "assertTrue",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::"
+        }
+    ],
+    "message": "Failed asserting that null is true.\n",
+    "output": ""
+}

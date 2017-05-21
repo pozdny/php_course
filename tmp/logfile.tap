@@ -1,0 +1,17 @@
+TAP version 13
+ok 1 - StackTest::testEmpty
+ok 2 - StackTest::testPush
+ok 3 - StackTest::testPop
+ok 4 - UserTest::testGetUser
+not ok 5 - Failure: UserTest::testCreateUser
+  ---
+  message: 'Failed asserting that false is true.'
+  severity: fail
+  ...
+ok 6 - UserValidTest::testGetUser
+not ok 7 - Failure: ValidatorTest::testValidate
+  ---
+  message: 'Failed asserting that null is true.'
+  severity: fail
+  ...
+1..7

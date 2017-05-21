@@ -1,0 +1,12 @@
+1. Composer
+2. Phinx
+3. Phing
+4. Sphinx
+5. Gearman
+6. PHPunit
+7. PHPdocumentor
+8. Memcached
+9. Xdebug
+10.Git
+11. Безопасность
+12. По серверу сегодня (без всего)

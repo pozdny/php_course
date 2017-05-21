@@ -1,0 +1,34 @@
+1. Включить удаленную отладку в конфигурации php.ini
+2. Указать порт (9000)
+3. Указать хост, с которого собираетесь подключаться
+4. Перезапустить веб сервер
+5. Сконфигурировать PHPSTORM
+6. Разрешить в PHPSTORM слушать входящие подключения
+7. Не забывать останаливать debug в PHPSTORM
+8. Иногда выключать XDEBUG
+
+//настройки для php.ini на сервере
+zend_extension = /usr/lib64/php/modules/xdebug.so
+xdebug.default_enable = 1
+xdebug.dump.REQUEST =
+xdebug.dump.SESSION =
+xdebug.dump.SERVER = REMOTE_ADDR,REQUEST_METHOD
+xdebug.dump.COOKIE =
+xdebug.dump.FILES =
+xdebug.dump.GET =
+xdebug.dump.POST =
+xdebug.dump_globals = 1
+xdebug.dump_once = 1
+xdebug.dump_undefined = 1
+xdebug.extended_info = 1
+xdebug.overload_var_dump = 1
+xdebug.remote_enable = 1
+xdebug.remote_handler = "dbgp"
+xdebug.remote_host = 127.0.0.1
+xdebug.remote_mode = "req"
+xdebug.remote_port = 9000
+xdebug.idekey = PHPSTORM
+
+https://www.virtualbox.org/
+https://www.phpdoc.org/
+https://getcomposer.org/

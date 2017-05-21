@@ -1,0 +1,4 @@
+Семантическое версионирование
+http://semver.org/lang/ru/
+https://svyatoslav.biz/misc/psr_translation/
+лига php
